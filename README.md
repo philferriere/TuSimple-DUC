@@ -19,7 +19,7 @@ Ubuntu 16.04, Python 2.7 with
 1. Clone the repository:
 
    ```shell
-   git clone git@github.com:TuSimple/TuSimple-DUC.git
+   git clone https://github.com/TuSimple/TuSimple-DUC.git
    python setup.py develop --user
    ```
 
@@ -28,7 +28,7 @@ Ubuntu 16.04, Python 2.7 with
 3. Build MXNet (only tested on the TuSimple version):
 
    ```shell
-   git clone --recursive git@github.com:TuSimple/mxnet.git
+   git clone --recursive https://github.com/TuSimple/mxnet.git
    vim make/config.mk
    make -j
    cd python
